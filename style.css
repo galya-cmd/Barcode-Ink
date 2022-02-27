@@ -1,18 +1,16 @@
 body{
     background-color: rgb(213, 213, 231);
 }
-.nav a{
-    /* display: flex;
 
-    justify-content: space-around;
-    border: none;
-    color: black; */
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
+.nav a{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* overflow: hidden; */
     justify-content: space-around;
     width: 700px;
     margin-right: 12.5%;
+    color: black;
+    text-decoration: none;
 }
 .services{
     background-color: grey;
