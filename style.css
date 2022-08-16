@@ -20,7 +20,7 @@ body{
 .main{
     min-height: calc(100vh - 90px);
 }
-.nav{
+.nav {
     display: flex;
     justify-content: flex-end;
 }
