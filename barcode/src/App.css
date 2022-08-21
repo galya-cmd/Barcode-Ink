@@ -1,22 +1,29 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.App-header{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.top{
+  flex-grow: 1;
 }
 
 
 
-
-
-body{
-  background-color: rgb(213, 213, 231);
-  background-image: url(./images/краска.jpeg);
+ body{
+   /* background-color: rgba(2, 2, 9, 0.185);  */
+   background-image: url(./images/краска.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
-  margin: 30px, 50px, 30px, 50px ;
+  background-attachment: fixed; 
+ 
   box-sizing: border-box;
-  
-}
+ }
+
 
 
 
@@ -27,16 +34,74 @@ li {
   /* Убираем маркеры */
 }
 .nav a{
-  display: flex;
-  justify-content: space-around; 
+ 
   text-decoration: none;
   align-items: center;
         flex-direction:row;
         color: white;
   
+
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
 }
 a:hover{
   color: #db7f34;
 
+}
+.footer{
+  color: white;
+}
+.main {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: middle;
+  text-align: left;
+  color: black;
+  margin: 30px;
+  background-color: orange;
+  margin: 25px;
+  padding: 25px;
+
+
+ 
+
+  /* translate: (30px, 10px) rotate(5deg); */
+
+}
+.img-main {
+  display: block;
+  border: none;
+  position: relative;
+  width: 30%;
+  height: 30%;
+  transform:  translate (30px, 10px) ;
+  transform: rotate(10deg);
+
+}
+.service{
+  color: black;
+  background-color: orange;
+  padding: 25px;
+}
+.guarantees{
+  color: black;
+  background-color: orange;
+  padding: 25px;
+  margin: 25px;
+}
+h3 span {
+  color: red;
+}
+.mapBox{
+  color: white;
+  margin-top: 15px;
+}
+.contacts{
+  color: white;
+}
+a {
+  color: orange;
 }
 

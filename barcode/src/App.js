@@ -1,11 +1,46 @@
-import logo from './logo.svg';
+
+import {BrowserRouter as  Router, Route , Routes} from 'react-router-dom';
 import './App.css';
 import Header from './Header';
+import Ink from './Ink';
+import Service from './Service';
+import Home from './Home';
+import Footer from './Footer';
+import Main from './Main';
+import Guarantees from './Guarantees';
+import Contacts from './Contacts';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-    <Header/>
+    <div className="App-header">
+      <div className='top'>
+      <Header/>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/service' element={<Service/>}/>
+          <Route path='/ink' element={<Ink/>}/>
+          <Route path='/guarantees' element={<Guarantees/>}/>
+          <Route path='/contacts' element={<Contacts/>}/>
+
+        </Routes>
+      </Router>
+      {/* <Main/> */}
+      
+      </div>
+    <div>
+    <Footer/>
+    </div>
+    
+    
+
+ 
+        
+     
+   
     </div>
   );
 }
