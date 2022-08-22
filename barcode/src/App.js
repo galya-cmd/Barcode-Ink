@@ -9,6 +9,7 @@ import Footer from './Footer';
 import Main from './Main';
 import Guarantees from './Guarantees';
 import Contacts from './Contacts';
+import Delivery from './Delivery';
 
 
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App-header">
       <div className='top'>
-      <Header/>
+      <Header />
       <Router>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -33,6 +34,8 @@ function App() {
       </div>
     <div>
     <Footer/>
+  
+
     </div>
     
     

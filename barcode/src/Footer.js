@@ -1,4 +1,10 @@
 import './App.css';
+import React from 'react';
+
+ import {BrowserRouter as  Route, Router, Routes} from 'react-router-dom';
+ import Delivery from './Delivery';
+import {Link} from 'react-router-dom';
+import NavHref from './NavHref';
 
 
 
@@ -14,8 +20,19 @@ function Footer() {
             <p>stsalykin@mail.ru</p>
             <p>88005555555</p>
 
-            <p>Информация о доставке и возврате</p>
+            <hr className='hr'/>
 
+            {/* <a id='delivery'>Информация о доставке и возврате</a> */}
+            <NavHref/>
+            {/* <Router>
+        <Routes>
+          <Route path='/delivery' element={<Delivery/>}/>
+     
+
+        </Routes>
+      </Router> */}
+          
+     
             </address>
             
             
@@ -23,6 +40,12 @@ function Footer() {
 
             
           </span>
+          
+     
+      
+      
+
+
           
         </>
       
