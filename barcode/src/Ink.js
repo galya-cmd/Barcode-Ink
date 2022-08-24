@@ -1,9 +1,9 @@
 import './App.css';
 function Ink (){
     return (
-        <div className="main">
+        <div className="ink">
             <div>
-            <img className='img-main' src='https://www.lipla.ru/wp-content/uploads/2021/08/homepage-slide-3.png' alt='lipla'></img>
+            <img className='img-ink' src='https://www.lipla.ru/wp-content/uploads/2021/08/homepage-slide-3.png' alt='lipla'></img>
             </div>
      
         <h2>УФ/LED-отверждаемые чернила премиум класса</h2>
