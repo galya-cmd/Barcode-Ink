@@ -10,9 +10,9 @@ function Contacts (){
       }
     return (
     <>
-    
+      <h2 className="contacts-title">Контакты</h2>
         
-            <address className='contacts'>
+            {/* <address className='contacts'>
             <p> 115184, г.Москва, ул. Красная площадь,1!</p>
            
             <p>stsalykin@mail.ru</p>
@@ -22,7 +22,7 @@ function Contacts (){
 
         
 
-            </address>
+            </address> */}
 
             <div className='mapBox'>
             <Iframe iframe={iframe} />
