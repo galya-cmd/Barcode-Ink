@@ -1,6 +1,4 @@
-/* .App {
-  text-align: center;
-} */
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +15,6 @@
 
 
  body{
-   /* background-color: rgba(2, 2, 9, 0.185);  */
    background-image: url(./images/краска.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,7 +28,8 @@
 
 
 
-li {
+.nav li
+ {
   list-style-type: none;
   
   /* Убираем маркеры */
@@ -53,13 +51,37 @@ a:hover{
   color: #db7f34;
 
 }
+.nav a img{
+  width: 30px;
+  height: auto;
+}
 .footer{
   color: white;
   
 }
-.footer p {
+/* .footer p {
+  margin-left: 25px;
+} */
+.footer-style{
+   display: flex;
+  justify-content: space-between;
+  margin: 0,25px, 0, 25px;
+  
+  
+}
+.footer-address{
+  /* display: flex;
+  justify-content: flex-start;
+  flex-direction: column;  */
   margin-left: 25px;
 }
+
+.footer-contacts{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  margin-right: 15px;
+} 
 .main {
   display: inline-block;
   white-space: normal;
@@ -113,9 +135,33 @@ h3 span {
   margin: 25px;
 }
 a {
-  color: orange;
+  color: white;
 }
 .hr {
   background-color: rgba(red, green, blue, alpha);
+}
+.delivery{
+  color: black;
+  background-color: orange;
+  padding: 25px;
+  margin: 25px;
+
+}
+.nav-delivery li{
+  list-style-type: none;
+ 
+  
+}
+.nav-delivery a{
+  padding-left: 15px;
+  text-decoration: none;
+  align-items: center;
+        flex-direction:row;
+        color: white;
+  
+}
+.nav-delivery a:hover{
+ 
+  color: #db7f34;
 }
 

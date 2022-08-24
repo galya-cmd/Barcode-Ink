@@ -1,7 +1,7 @@
 
 function Delivery(){
     return(
-        <div id="delivery">
+        <div className="delivery">
             <h1>Доставка заказов</h1>
             <ul>
                 <li>Бесплатная доставка по Москве при сумме заказа более 40 000 рублей</li>

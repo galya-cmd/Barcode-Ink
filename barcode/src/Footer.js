@@ -1,10 +1,8 @@
 import './App.css';
 import React from 'react';
 
- import {BrowserRouter as  Route, Router, Routes} from 'react-router-dom';
- import Delivery from './Delivery';
-import {Link} from 'react-router-dom';
-import NavHref from './NavHref';
+
+
 
 
 
@@ -14,31 +12,34 @@ function Footer() {
           
           <span className="footer">
             <address>
+              <div className='footer-style'>
+              <div className='footer-address'>
             <p> 115184, г.Москва, ул. Красная площадь,1!</p>
             <p>ИНН 2754949376</p>
             <p>ОГРН 153648459590000</p><br/>
+            </div>
+            <div className='footer-contacts'>
             <p>stsalykin@mail.ru</p>
             <p>88005555555</p>
+            </div>
 
+              </div>
+       
+            
+           
             <hr className='hr'/>
 
-            {/* <a id='delivery'>Информация о доставке и возврате</a> */}
-            <NavHref/>
-            {/* <Router>
-        <Routes>
-          <Route path='/delivery' element={<Delivery/>}/>
-     
-
-        </Routes>
-      </Router> */}
+        <nav >
           
-     
-            </address>
-            
-            
-            
+          <ul className='nav-delivery'>
+            <li>
+            <a href="/delivery">Доставка и возврат</a>
+            </li>
+          </ul>
 
-            
+        </nav>
+            </address>
+
           </span>
           
      

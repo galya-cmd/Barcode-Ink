@@ -17,8 +17,7 @@ function Contacts (){
            
             <p>stsalykin@mail.ru</p>
             <p>88005555555</p>
-        <div> <a href="./">Информация о доставке и возврате</a>
-        </div>
+        
            
 
         
