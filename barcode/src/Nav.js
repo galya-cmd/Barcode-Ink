@@ -1,3 +1,4 @@
+
 import './App.css';
 import img from '../src/images/logo.png';
 
@@ -12,7 +13,14 @@ return(
   </label>    
 
     <ul className="nav menu__box">
-    <li><a href="/" className='menu__item'>PRIZMA<img src={img} alt='logo'></img></a></li>
+    {/* <li><a href="/" className='menu__item'>PRIZMA <img className='img' src={img} alt='logo'></img>
+    </a></li> */}
+       <li><a href="/" className='menu__item menu__logo' >PRIZMA
+    </a></li>
+
+    <li>
+   
+    </li>
 <li><a href="/" className='menu__item'>Главная</a></li>
 
 <li><a href="/ink" className='menu__item'>Чернила</a></li>

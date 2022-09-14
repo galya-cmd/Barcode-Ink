@@ -3,11 +3,10 @@ import {useState} from 'react';
 
 
 function Service (){
-const [button, setButton] = useState(false);
+const [isButtonClicked, setIsButtonClicked] = useState(false);
 
-let handler = () => {
-    button = <MoreService/>;
-setButton(button);
+let handlerButtonClicked = () => {
+    setIsButtonClicked(true);
 }
 
     return (
@@ -16,7 +15,8 @@ setButton(button);
         <h1>Дополнительные услуги и сервис</h1>
         <h3>Цветопрофилирование</h3>
         <p>Настройка технологического процесса вывода цвета – построение профиля принтера (или цветопрофилирование) на оборудовании для широкоформатной печати на сольвентных и УФ-принтерах.</p>
-        <button onClick={handler}>Подробнее</button>
+        <button onClick={handlerButtonClicked}>Подробнее</button>
+        {isButtonClicked && <MoreService/>}
         </div>
         
     )
@@ -27,7 +27,8 @@ setButton(button);
     function MoreService(){
         return(
             <div>
-                <ul>В этот процесс входит:
+                <h3>В этот процесс входит:</h3>
+                <ul>
                     <li>Диагностика проблем и настройка рабочих режимов печати принтера.</li>
                     <li>Настройка RIPa.</li>
                     <li>Построение профиля принтера и подбор рабочих режимов печати.</li>

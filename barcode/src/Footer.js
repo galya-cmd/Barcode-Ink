@@ -1,11 +1,6 @@
 import './App.css';
 import React from 'react';
 
-
-
-
-
-
 function Footer() {
     return (
         <>
@@ -24,9 +19,6 @@ function Footer() {
             </div>
 
               </div>
-       
-            
-           
             <hr className='hr'/>
 
         <nav >
@@ -41,16 +33,8 @@ function Footer() {
             </address>
 
           </span>
-          
-     
-      
-      
 
-
-          
         </>
-      
-
     );
   }
   

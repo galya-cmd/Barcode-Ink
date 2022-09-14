@@ -52,9 +52,14 @@ a:hover{
 
 }
 .nav a img{
-  width: 60px;
+  width: 40px;
   height: auto;
 }
+.menu__logo{
+  font-size: larger;
+  color: aliceblues;
+}
+
 .footer{
   color: white;
   
@@ -266,6 +271,7 @@ a {
     font-weight: 600;
     text-decoration: none;
   }
+ 
   .nav a{
     color: black;
   }
