@@ -52,7 +52,7 @@ a:hover{
 
 }
 .nav a img{
-  width: 25px;
+  width: 60px;
   height: auto;
 }
 .footer{
@@ -300,5 +300,8 @@ a {
     margin-bottom: 15px;
   }
   
+}
+.home{
+  color:aliceblue;
 }
 

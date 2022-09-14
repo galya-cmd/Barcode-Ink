@@ -28,6 +28,7 @@ function App() {
           <Route path='/guarantees' element={<Guarantees/>}/>
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path="/delivery" element={<Delivery />} />
+          
 
         </Routes>
       </Router>
