@@ -32,25 +32,14 @@ function App() {
 
         </Routes>
       </Router>
-      {/* <Main/> */}
       
       </div>
-     
-   
-  
+
     <div>
     <Footer/>
-    {/* <NavHref/> */}
-  
 
     </div>
     
-    
-
- 
-        
-     
-   
     </div>
   );
 }
