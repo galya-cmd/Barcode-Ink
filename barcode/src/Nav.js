@@ -1,6 +1,7 @@
 
 import './App.css';
 import img from '../src/images/logo.png';
+import { Link } from 'react-router-dom';
 
 function Nav (){
 return(
@@ -17,11 +18,13 @@ return(
     </a></li>
     <li>
     </li>
-<li><a href="/" className='menu__item'>Главная</a></li>
-<li><a href="/ink" className='menu__item'>Чернила</a></li>
-<li><a href="/service" className='menu__item'>Сервис</a></li>
-<li><a href="/guarantees"className='menu__item'>Гарантии</a></li>
-<li><a href="/contacts" className='menu__item'>Контакты</a></li>
+    
+    
+<li><Link to="/" className='menu__item' >Главная</Link></li>
+<li><Link to="/ink" className='menu__item'>Чернила</Link></li>
+<li><Link to="/service" className='menu__item'>Сервис</Link></li>
+<li><Link to="/guarantees"className='menu__item'>Гарантии</Link></li>
+<li><Link to="/contacts" className='menu__item'>Контакты</Link></li>
 </ul>
 </div>
     </>
