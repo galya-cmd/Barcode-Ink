@@ -68,7 +68,7 @@ a:hover{
   margin-left: 25px;
 } */
 .footer-style{
-   display: flex;
+  display: flex;
   justify-content: space-between;
   margin: 0,25px, 15px, 25px;
   

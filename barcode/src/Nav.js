@@ -13,20 +13,14 @@ return(
   </label>    
 
     <ul className="nav menu__box">
-    {/* <li><a href="/" className='menu__item'>PRIZMA <img className='img' src={img} alt='logo'></img>
-    </a></li> */}
-       <li><a href="/" className='menu__item menu__logo' >PRIZMA
+    <li><a href="/" className='menu__item menu__logo' >PRIZMA
     </a></li>
-
     <li>
-   
     </li>
 <li><a href="/" className='menu__item'>Главная</a></li>
-
 <li><a href="/ink" className='menu__item'>Чернила</a></li>
 <li><a href="/service" className='menu__item'>Сервис</a></li>
 <li><a href="/guarantees"className='menu__item'>Гарантии</a></li>
-
 <li><a href="/contacts" className='menu__item'>Контакты</a></li>
 </ul>
 </div>
