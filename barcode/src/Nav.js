@@ -20,11 +20,11 @@ return(
     </li>
     
     
-<li><Link to="/" className='menu__item' >Главная</Link></li>
-<li><Link to="/ink" className='menu__item'>Чернила</Link></li>
-<li><Link to="/service" className='menu__item'>Сервис</Link></li>
-<li><Link to="/guarantees"className='menu__item'>Гарантии</Link></li>
-<li><Link to="/contacts" className='menu__item'>Контакты</Link></li>
+<li><NavLink to="/" className='menu__item' >Главная</NavLink></li>
+<li><NavLink to="/ink" className='menu__item'>Чернила</NavLink></li>
+<li><NavLink to="/service" className='menu__item'>Сервис</NavLink></li>
+<li><NavLink to="/guarantees"className='menu__item'>Гарантии</NavLink></li>
+<li><NavLink to="/contacts" className='menu__item'>Контакты</NavLink></li>
 </ul>
 </div>
     </>
