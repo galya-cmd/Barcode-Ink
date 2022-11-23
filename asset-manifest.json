@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Barcode-Ink/static/css/main.59f28bd1.css",
-    "main.js": "/Barcode-Ink/static/js/main.ed0aecac.js",
+    "main.js": "/Barcode-Ink/static/js/main.65bc90f9.js",
     "static/js/787.0eafff19.chunk.js": "/Barcode-Ink/static/js/787.0eafff19.chunk.js",
     "static/media/краска.jpeg": "/Barcode-Ink/static/media/краска.abb4ab1b40e3a9f28cb7.jpeg",
     "static/media/logo.png": "/Barcode-Ink/static/media/logo.c35d545be6e8aec838f9.png",
     "index.html": "/Barcode-Ink/index.html",
     "main.59f28bd1.css.map": "/Barcode-Ink/static/css/main.59f28bd1.css.map",
-    "main.ed0aecac.js.map": "/Barcode-Ink/static/js/main.ed0aecac.js.map",
+    "main.65bc90f9.js.map": "/Barcode-Ink/static/js/main.65bc90f9.js.map",
     "787.0eafff19.chunk.js.map": "/Barcode-Ink/static/js/787.0eafff19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59f28bd1.css",
-    "static/js/main.ed0aecac.js"
+    "static/js/main.65bc90f9.js"
   ]
 }
