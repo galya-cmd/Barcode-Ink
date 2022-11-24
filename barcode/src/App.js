@@ -19,8 +19,9 @@ function App() {
   return (
     <div className="App-header">
       <div className='top'>
-      <Header />
+      
       <Router>
+      <Header />
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/service' element={<Service/>}/>
@@ -31,12 +32,13 @@ function App() {
           
 
         </Routes>
+        <Footer/>
       </Router>
 
       </div>
 
     <div>
-    <Footer/>
+    
 
     </div>
     
