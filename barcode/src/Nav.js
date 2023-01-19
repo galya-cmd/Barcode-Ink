@@ -14,8 +14,8 @@ return(
   </label>    
 
     <ul className="nav menu__box">
-    <li><a href="/" className='menu__item menu__logo' >PRIZMA
-    </a></li>
+    <li><Link to="/" className='menu__item menu__logo' >PRIZMA
+    </Link></li>
     <li>
     </li>
     
