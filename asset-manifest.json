@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/Barcode-Ink/static/css/main.81c773c6.css",
-    "main.js": "/Barcode-Ink/static/js/main.6d73f124.js",
+    "main.css": "/Barcode-Ink/static/css/main.bf2b4228.css",
+    "main.js": "/Barcode-Ink/static/js/main.e9051a8b.js",
     "static/js/787.0eafff19.chunk.js": "/Barcode-Ink/static/js/787.0eafff19.chunk.js",
-    "static/media/краска.jpeg": "/Barcode-Ink/static/media/краска.abb4ab1b40e3a9f28cb7.jpeg",
     "static/media/logo.png": "/Barcode-Ink/static/media/logo.c35d545be6e8aec838f9.png",
     "index.html": "/Barcode-Ink/index.html",
-    "main.81c773c6.css.map": "/Barcode-Ink/static/css/main.81c773c6.css.map",
-    "main.6d73f124.js.map": "/Barcode-Ink/static/js/main.6d73f124.js.map",
+    "main.bf2b4228.css.map": "/Barcode-Ink/static/css/main.bf2b4228.css.map",
+    "main.e9051a8b.js.map": "/Barcode-Ink/static/js/main.e9051a8b.js.map",
     "787.0eafff19.chunk.js.map": "/Barcode-Ink/static/js/787.0eafff19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81c773c6.css",
-    "static/js/main.6d73f124.js"
+    "static/css/main.bf2b4228.css",
+    "static/js/main.e9051a8b.js"
   ]
 }
