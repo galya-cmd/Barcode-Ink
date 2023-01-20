@@ -18,10 +18,12 @@ import Delivery from './Delivery';
 function App() {
   return (
     <div className="App-header">
-      <div className='top'>
+      
       
       <Router>
+      <div className='top'>
       <Header />
+      
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/service' element={<Service/>}/>
@@ -30,18 +32,14 @@ function App() {
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path="/delivery" element={<Delivery />} />
         </Routes>
-        <Main/>
+        </div>
         <Footer/>
       </Router>
       
       </div>
       
-    <div>
     
-
-    </div>
-    
-    </div>
+   
   );
 }
 
