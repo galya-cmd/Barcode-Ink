@@ -21,25 +21,27 @@ function App() {
       
       
       <Router>
+      
       <div className='top'>
       <Header />
-      
-        <Routes>
+      <Main/>
+      <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/service' element={<Service/>}/>
           <Route path='/ink' element={<Ink/>}/>
           <Route path='/guarantees' element={<Guarantees/>}/>
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path="/delivery" element={<Delivery />} />
-        </Routes>
+      </Routes>
         </div>
+
         <Footer/>
       </Router>
       
       </div>
       
     
-   
+  
   );
 }
 
